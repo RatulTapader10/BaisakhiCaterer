@@ -16,8 +16,8 @@ function App() {
      "/": (
   <>
     <Hero />
-    <Reviews />
-     <About />,
+     <About />
+     <Reviews />,
   </>
 ),
    
