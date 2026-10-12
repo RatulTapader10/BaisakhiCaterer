@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --brand-amber: #f59e0b;
+  --brand-red: #b91c1c;
+  --brand-ink: #1f120d;
+  --brand-gold-soft: #fff7ed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: var(--brand-ink);
+  background: linear-gradient(180deg, #fffaf5 0%, #fffdfb 100%);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: rgba(245, 158, 11, 0.3);
+  color: #1c1917;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.float-soft {
+  animation: float 5.5s ease-in-out infinite;
+}
+
+.luxury-title {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: -0.04em;
+}
+
+.soft-card {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
