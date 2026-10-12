@@ -17,9 +17,10 @@ function App() {
   <>
     <Hero />
     <Reviews />
+     <About />,
   </>
 ),
-    "/about": <About />,
+   
     "/services": <Services />,
     "/menu": <Menu />,
     "/gallery": <Gallery />,
