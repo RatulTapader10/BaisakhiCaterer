@@ -20,7 +20,7 @@ function App() {
      <Reviews />,
   </>
 ),
-   
+   "/about": <About />,
     "/services": <Services />,
     "/menu": <Menu />,
     "/gallery": <Gallery />,
