@@ -1,5 +1,5 @@
 const WhatsAppButton = () => {
-  const whatsappNumber = "91XXXXXXXXXX";
+  const whatsappNumber = "+916289866245";
   const message =
     "Hello Baisakhi Caterer! I would like to enquire about your catering services.";
   const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
