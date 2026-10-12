@@ -74,18 +74,18 @@ const Footer = () => {
             <p>
               <span className="mr-2 text-amber-300">📞</span>
               <a href="tel:+910000000000" className="transition hover:text-amber-300">
-                Add your phone number
+                +916289866245
               </a>
             </p>
 
             <p>
               <span className="mr-2 text-amber-300">📍</span>
-              Add your business location
+              Baguiati,main road,kolkata,west bengal kolkata-700059
             </p>
 
             <p>
               <span className="mr-2 text-amber-300">✉️</span>
-              Add your business email
+              tapaderratul08@gmail.com
             </p>
 
             <div className="flex gap-3 pt-3">
